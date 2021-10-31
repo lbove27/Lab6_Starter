@@ -5,7 +5,7 @@ class RecipeCard extends HTMLElement {
     var recipeShadow = this.attachShadow({mode: 'open'});
     // You'll want to attach the shadow DOM here
   }
-
+ 
   set data(data) {
     // This is the CSS that you'll use for your recipe cards
     const styleElem = document.createElement('style');

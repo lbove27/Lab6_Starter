@@ -8,7 +8,8 @@ const recipes = [
   'https://introweb.tech/assets/json/chocolateChip.json',
   
   'https://lbove27.github.io/Lab6_Starter/assets/recipes/chocolate_cupcakes.json',
-  'https://lbove27.github.io/Lab6_Starter/assets/recipes/cheesecake.json'
+  'https://lbove27.github.io/Lab6_Starter/assets/recipes/cheesecake.json',
+  'https://lbove27.github.io/Lab6_Starter/assets/recipes/boobark.json'
   
   
    
