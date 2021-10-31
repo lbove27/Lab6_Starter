@@ -7,11 +7,11 @@ const recipes = [
   'https://introweb.tech/assets/json/birthdayCake.json',
   'https://introweb.tech/assets/json/chocolateChip.json',
   
-  'https://introweb.tech/assets/json/ghostCookies.json',
-  'https://introweb.tech/assets/json/birthdayCake.json',
-  'https://introweb.tech/assets/json/chocolateChip.json',
+  'https://lbove27.github.io/Lab6_Starter/assets/recipes/chocolate_cupcakes.json',
+  'https://lbove27.github.io/Lab6_Starter/assets/recipes/brownie.json'
   
   
+   
   
   
 ];
@@ -97,7 +97,7 @@ function bindShowMore() {
   j++;
   if(j % 2 == 1) {
     button[0].textContent = "Show Less"
-  for(let i = 0; i < recipes.length - 3; i++) {
+  for(let i = 3; i < recipes.length; i++) {
     var main = document.getElementsByTagName("main");
     var recipeCard = document.createElement("recipe-card")
     recipeCard.data = recipeData[recipes[i]]
