@@ -1,1 +1,58 @@
-{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://thestayathomechef.com/#website","url":"https://thestayathomechef.com/","name":"thestayathomechef.com","description":"Restaurant quality recipes you can easily make at home.","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://thestayathomechef.com/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"ImageObject","@id":"https://thestayathomechef.com/brownie-recipe/#primaryimage","inLanguage":"en-US","url":"https://thestayathomechef.com/wp-content/uploads/2019/03/Best-Brownies-Ever.jpg","contentUrl":"https://thestayathomechef.com/wp-content/uploads/2019/03/Best-Brownies-Ever.jpg","width":1280,"height":720,"caption":"Best Brownies Ever"},{"@type":"WebPage","@id":"https://thestayathomechef.com/brownie-recipe/#webpage","url":"https://thestayathomechef.com/brownie-recipe/","name":"Best Brownie Recipe Ever - thestayathomechef.com","isPartOf":{"@id":"https://thestayathomechef.com/#website"},"primaryImageOfPage":{"@id":"https://thestayathomechef.com/brownie-recipe/#primaryimage"},"datePublished":"2019-03-01T15:30:30+00:00","dateModified":"2021-03-04T16:56:53+00:00","author":{"@id":"https://thestayathomechef.com/#/schema/person/58a54a261d70d6a2fe5ac5b10076616c"},"description":"This really is the Best Brownie Recipe ever! These homemade brownies are the perfect chewy fudge squares of chocolate. You'll never buy a boxed brownie mix again!","breadcrumb":{"@id":"https://thestayathomechef.com/brownie-recipe/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://thestayathomechef.com/brownie-recipe/"]}]},{"@type":"BreadcrumbList","@id":"https://thestayathomechef.com/brownie-recipe/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://thestayathomechef.com/"},{"@type":"ListItem","position":2,"name":"Recipe Index","item":"https://thestayathomechef.com/blog/"},{"@type":"ListItem","position":3,"name":"Best Brownie Recipe Ever"}]},{"@type":"Person","@id":"https://thestayathomechef.com/#/schema/person/58a54a261d70d6a2fe5ac5b10076616c","name":"Rachel Farnsworth","sameAs":["https://thestayathomechef.com","https://www.facebook.com/TheStayAtHomeChef/","https://twitter.com/thestayhomechef"],"url":"https://thestayathomechef.com/author/stayathomechefbloggmail-com/"},{"@context":"http://schema.org/","@type":"Recipe","name":"Best Brownies Ever","author":{"@type":"Person","name":"Rachel Farnsworth"},"description":"This really is the Best Brownie Recipe ever! These homemade brownies are the perfect chewy fudge squares of chocolate. You'll never buy a boxed brownie mix again!","datePublished":"2019-03-01T08:30:30+00:00","image":["https://thestayathomechef.com/wp-content/uploads/2018/02/Best-Brownies-1-small.jpg"],"video":{"name":"Best Brownie Recipe Ever","description":"The Best Brownie Recipe Ever has the perfect crackly top with bites of fudgy, chewy chocolate goodness. This easy one-bowl recipe means you'll never buy a boxed brownie mix again!","thumbnailUrl":"https://mediavine-res.cloudinary.com/image/upload/s--jqla9MNt--/c_limit,f_auto,fl_lossy,h_1080,q_auto,w_1920/v1600798567/fsbvivsq9jxn5rt28oke.jpg","contentUrl":"https://embed.mediavine.com/videos/gzaondivmtchkathcsxt","uploadDate":"2020-02-25T19:38:34+00:00","duration":"PT219S","@type":"VideoObject","hasPart":[{"@type":"Clip","@id":"Clip1","name":"Preheat and Prepare","startOffset":"26","endOffset":"41","url":"https://thestayathomechef.com/brownie-recipe/?mvs=26#mv-first-video"},{"@type":"Clip","@id":"Clip2","name":"Cream butter","startOffset":"42","endOffset":"71","url":"https://thestayathomechef.com/brownie-recipe/?mvs=42#mv-first-video"},{"@type":"Clip","@id":"Clip3","name":"Add eggs","startOffset":"73","endOffset":"94","url":"https://thestayathomechef.com/brownie-recipe/?mvs=73#mv-first-video"},{"@type":"Clip","@id":"Clip4","name":"Melted chocolate","startOffset":"95","endOffset":"117","url":"https://thestayathomechef.com/brownie-recipe/?mvs=95#mv-first-video"},{"@type":"Clip","@id":"Clip5","name":"Dry ingredients","startOffset":"118","endOffset":"162","url":"https://thestayathomechef.com/brownie-recipe/?mvs=118#mv-first-video"},{"@type":"Clip","@id":"Clip6","name":"Pour in pan","startOffset":"163","endOffset":"181","url":"https://thestayathomechef.com/brownie-recipe/?mvs=163#mv-first-video"},{"@type":"Clip","@id":"Clip7","name":"Baking Instructions","startOffset":"181","endOffset":"193","url":"https://thestayathomechef.com/brownie-recipe/?mvs=181#mv-first-video"}]},"recipeYield":["9","9 Servings"],"prepTime":"PT5M","cookTime":"PT30M","totalTime":"PT35M","recipeIngredient":["10 tablespoons salted butter (melted)","1 cup granulated sugar","2 large eggs","2 teaspoons vanilla extract","1/2 cup melted milk chocolate chips","3/4 cup all-purpose flour","1/4 cup unsweetened cocoa powder","1/2 teaspoon salt","1 cup milk chocolate chips"],"recipeInstructions":[{"@type":"HowToStep","text":"Preheat oven to 350 degrees F. Line a metal 9x9 pan with parchment paper.","name":"","url":"https://thestayathomechef.com/brownie-recipe/#wprm-recipe-9405-step-0-0","video":{"@id":"Clip1"}},{"@type":"HowToStep","text":"Pour melted butter into a large mixing bowl. Whisk in sugar by hand until smooth, 30 seconds.","name":"","url":"https://thestayathomechef.com/brownie-recipe/#wprm-recipe-9405-step-0-1","video":{"@id":"Clip2"}},{"@type":"HowToStep","text":"Add in eggs and vanilla extract. Whisk 1 minute.","name":"","url":"https://thestayathomechef.com/brownie-recipe/#wprm-recipe-9405-step-0-2","video":{"@id":"Clip3"}},{"@type":"HowToStep","text":"Whisk in melted chocolate until combined and smooth.","name":"","url":"https://thestayathomechef.com/brownie-recipe/#wprm-recipe-9405-step-0-3","video":{"@id":"Clip4"}},{"@type":"HowToStep","text":"Use a rubber spatula to stir in flour, cocoa powder, and salt until just combined. Stir in whole chocolate chips.","name":"","url":"https://thestayathomechef.com/brownie-recipe/#wprm-recipe-9405-step-0-4","video":{"@id":"Clip5"}},{"@type":"HowToStep","text":"Pour into prepared pan and smooth out.","name":"","url":"https://thestayathomechef.com/brownie-recipe/#wprm-recipe-9405-step-0-5","video":{"@id":"Clip6"}},{"@type":"HowToStep","text":"Bake in the preheated oven for 30 minutes. Let cool in pan 30 minutes before slicing.","name":"","url":"https://thestayathomechef.com/brownie-recipe/#wprm-recipe-9405-step-0-6","video":{"@id":"Clip7"}}],"aggregateRating":{"@type":"AggregateRating","ratingValue":"4.88","ratingCount":"365"},"recipeCategory":["Dessert"],"recipeCuisine":["American"],"keywords":"Brownies","nutrition":{"@type":"NutritionInformation","servingSize":"1 slice","calories":"386 kcal","carbohydrateContent":"52 g","proteinContent":"4 g","fatContent":"18 g","saturatedFatContent":"11 g","cholesterolContent":"67 mg","sodiumContent":"254 mg","fiberContent":"1 g","sugarContent":"41 g"},"@id":"https://thestayathomechef.com/brownie-recipe/#recipe","isPartOf":{"@id":"https://thestayathomechef.com/brownie-recipe/#webpage"},"mainEntityOfPage":"https://thestayathomechef.com/brownie-recipe/#webpage"}]}
+
+{
+  "@context": "http://schema.org",
+  "@type": "Recipe",
+  "author": {"@type":"Organization","name":"Land O'Lakes"},
+  "totalTime": "PT0H0M",
+  "prepTime": "PT0H15M",    
+  "datePublished": "",
+  "mainEntityOfPage": "True",
+  "description": "These cake-like brownies have a slightly fluffy texture and a great chocolate flavor.",
+  "image": "https://storcpdkenticomedia.blob.core.windows.net/media/recipemanagementsystem/media/recipe-media-files/recipes/retail/x17/20589-ultimate-cakey-brownies-600x600.jpg?ext=.jpg",
+  "recipeIngredient": ["3 ounces unsweetened baking chocolate ","1/4 cup  Land O Lakes® Butter softened ","3/4 cup sugar ","2  large Land O Lakes® Eggs ","1/4 cup milk ","1 tablespoon light corn syrup ","1 teaspoon vanilla extract ","1/2 cup all-purpose flour ","1/2 teaspoon baking powder "],
+  "name": "Ultimate Cakey Brownies",
+  "nutrition": {
+  "@type": "NutritionInformation",
+  "calories": "120 calories",
+  "fatContent": "7 grams",
+  "saturatedFatContent": " grams",
+  "transfatContent": " grams",
+  "cholesterolContent": " 35 milligrams",
+  "sodiumContent": "55 milligrams",
+  "carbohydrateContent": "15 grams",
+  "fiberContent":"0 grams",
+  "sugarContent":" grams",
+  "proteinContent":"2 grams"
+  },
+  "recipeInstructions": [{
+  "@type": "HowToStep",
+  "text": "Heat oven to 350&deg;F.  Grease bottom only of 8-inch square baking pan.  Set aside. "
+},
+
+{
+  "@type": "HowToStep",
+  "text": "Place chocolate into bowl. &nbsp;Microwave 1 minute&nbsp;on Medium (50% power); stir. &nbsp;Continue microwaving, stirring at 1 minute intervals, 2-3 minutes or until chocolate is melted and smooth. Set aside. "
+},
+
+{
+  "@type": "HowToStep",
+  "text": "Place butter into another bowl. &nbsp;Whisk until soft and creamy. Add sugar; continue beating until well mixed. Add one egg at a time, beating well after each addition. Add milk, corn syrup and vanilla; beat until well mixed. Stir in melted chocolate until well mixed. Stir in flour and baking powder until well mixed. "
+},
+
+{
+  "@type": "HowToStep",
+  "text": "Pour brownie mixture into prepared pan. Spread mixture evenly in pan. Bake 23-30 minutes or until toothpick inserted in center comes out clean. (Do not overbake.) Cool completely. "
+}
+
+],
+  "aggregateRating": [{
+  "@type": "AggregateRating",
+  "ratingValue": "3.8 ",
+  "ratingCount": "5 "
+}
+],                     
+  "recipeYield": "16 brownies",
+  "recipeCategory":["Brownie","Sweet","Baking","Bar","Dessert"],
+  "recipeCuisine": []
+
+}
