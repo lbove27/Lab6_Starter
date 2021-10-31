@@ -1,7 +1,8 @@
 class RecipeCard extends HTMLElement {
   constructor() {
     // Part 1 Expose - TODO
-
+    super();
+    var recipeShadow = this.attachShadow({mode: 'open'});
     // You'll want to attach the shadow DOM here
   }
 
@@ -87,6 +88,94 @@ class RecipeCard extends HTMLElement {
 
     // Here's the root element that you'll want to attach all of your other elements to
     const card = document.createElement('article');
+
+    const image = document.createElement('img');
+    card.appendChild(image)
+    image.src = searchForKey(data, "thumbnailUrl")
+
+    const title = document.createElement('p')
+    title.setAttribute('class', 'title')
+    title.textContent = searchForKey(data, 'headline')
+
+    const link = document.createElement('a')
+    link.setAttribute('href', getUrl(data))
+
+    link.appendChild(title)
+
+    card.appendChild(link)
+
+    const organization = document.createElement('p')
+    organization.textContent = getOrganization(data)
+
+    card.appendChild(organization)
+
+    const divRating = document.createElement('div')
+    divRating.setAttribute('class', 'rating')
+
+    const imageRating = document.createElement('img')
+    const ratingCount = document.createElement('span')
+    const ratingValue = document.createElement('span')
+
+    card.appendChild(divRating)
+
+    if(searchForKey(data, 'ratingCount') == null) {
+      const noReviews = document.createElement("span")
+      noReviews.textContent = "No Reviews"
+      divRating.appendChild(noReviews) 
+    } else {
+      ratingCount.textContent = searchForKey(data, 'ratingCount')
+      ratingValue.textContent = searchForKey(data, 'ratingValue')
+      divRating.appendChild(ratingValue)
+      if(ratingValue.textContent >= 4) {
+        imageRating.src = "assets/images/icons/5-star.svg"
+      }
+      else if(ratingValue.textContent >= 3 && ratingValue.textContent < 4) {
+        imageRating.src = "assets/images/icons/4-star.svg"
+      }
+      else if(ratingValue.textContent >= 2 && ratingValue.textContent < 3) {
+        imageRating.src = "assets/images/icons/3-star.svg"
+      }
+      else if(ratingValue.textContent >= 1 && ratingValue.textContent < 2) {
+        imageRating.src = "assets/images/icons/2-star.svg"
+      }
+      else {
+        imageRating.src = "assets/images/icons/2-star.svg"
+      }
+      
+      divRating.appendChild(imageRating)
+  
+      ratingCount.textContent = "(" + ratingCount.textContent + ")"
+      divRating.appendChild(ratingCount)
+    }
+    
+   const time = document.createElement('time')
+   time.textContent = convertTime(searchForKey(data, 'totalTime'))
+
+   card.appendChild(time)
+    
+   const ingredients = document.createElement('p')
+   ingredients.setAttribute('class', 'ingredients')
+   ingredients.textContent = createIngredientList(searchForKey(data, 'recipeIngredient'))
+
+   card.append(ingredients)
+    
+    
+   
+    
+    
+      
+      
+   
+    
+
+
+    
+
+
+
+    this.shadowRoot.appendChild(card)
+    this.shadowRoot.appendChild(styleElem)
+    
 
     // Some functions that will be helpful here:
     //    document.createElement()
